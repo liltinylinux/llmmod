@@ -1,0 +1,20 @@
+{
+  "contactName": "Handler-AI",
+  "contactTraderId": "handler_ai",
+  "contactHex": "aaaaaaaaaaaaaaaaaaaaaaaa",
+  "model": {
+    "baseUrl": "http://localhost:11434",
+    "modelName": "qwen2.5:7b",
+    "apiKey": ""
+  },
+  "prompt": {
+    "system": "You are a helpful Tarkov handler.",
+    "maxTurns": 6,
+    "maxTokens": 256,
+    "temperature": 0.3
+  },
+  "limits": {
+    "perDialogMaxContextKb": 64
+  },
+  "debug": false
+}
